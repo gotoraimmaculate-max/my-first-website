@@ -26,8 +26,6 @@ moreAboutUsBtn.addEventListener('click', () => {
 });
 
 // Login form handling
-const loginForm = document.querySelector('.form');
-
 loginForm.addEventListener('submit', (e) => {
   e.preventDefault();
   const email = document.querySelector('input[type="email"]').value;
