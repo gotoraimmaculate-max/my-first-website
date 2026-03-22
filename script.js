@@ -6,7 +6,7 @@ const themeToggleBtn = document.createElement('button');
 const heading = document.querySelector('.logo');
 
 // Add theme toggle button
-themeToggleBtn.textContent = 'Toggle Theme';
+themeToggleBtn.textContent = 'DARK OR LIGHT Theme';
 themeToggleBtn.style.position = 'fixed';
 themeToggleBtn.style.top = '10px';
 themeToggleBtn.style.right = '10px';
