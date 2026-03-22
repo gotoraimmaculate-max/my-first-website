@@ -6,7 +6,7 @@ const themeToggleBtn = document.createElement('button');
 const heading = document.querySelector('.logo');
 
 // Add theme toggle button
-themeToggleBtn.textContent = 'Toggle Theme';
+themeToggleBtn.textContent = 'DARK OR LIGHT MODE';
 themeToggleBtn.style.position = 'fixed';
 themeToggleBtn.style.top = '10px';
 themeToggleBtn.style.right = '10px';
@@ -26,10 +26,12 @@ moreAboutUsBtn.addEventListener('click', () => {
 });
 
 // Login form handling
+const loginForm = document.querySelector('.form');
+
 loginForm.addEventListener('submit', (e) => {
   e.preventDefault();
-  const email = document.querySelector('.form input[type="text"]').value;
-  const password = document.querySelector('.form input[type="password"]').value;
+  const email = document.querySelector('input[type="email"]').value;
+  const password = document.querySelector('input[type="password"]').value;
   if (email && password) {
     console.log('Login successful!');
     alert('Login successful!');
