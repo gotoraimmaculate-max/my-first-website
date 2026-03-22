@@ -22,7 +22,7 @@ themeToggleBtn.addEventListener('click', () => {
 
 // MORE ABOUT US button click
 moreAboutUsBtn.addEventListener('click', () => {
-  alert('Learn more about blood groups and their importance!');
+  alert('blood groups are classified by antigenson red blood cells. knowing your type is crucial for safe transfusion!');
 });
 
 // Login form handling
